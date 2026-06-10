@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+.card{
+ 
+  background-color: pink;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  min-width: 300px;
+  height: auto;
+}
+.card1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nav{
+  background-color: rgb(85, 201, 230);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
